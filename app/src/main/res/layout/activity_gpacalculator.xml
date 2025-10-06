@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gpaCalculatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFC4C4"
+    android:padding="20dp"
+    tools:context=".GPACalculatorActivity">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/CourseCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/course_code"
+        android:layout_marginStart="10dp"
+        android:padding="8dp"
+        android:layout_below="@+id/Welcome"/>
+
+    <EditText
+        android:id="@+id/Grade"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/grade"
+        android:layout_toEndOf="@+id/CourseCode"
+        android:layout_marginStart="10dp"
+        android:padding="8dp"
+        android:layout_below="@+id/Welcome" />
+
+    <EditText
+        android:id="@+id/Credit"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/credit"
+        android:layout_toEndOf="@+id/Grade"
+        android:layout_marginStart="10dp"
+        android:padding="8dp"
+        android:layout_below="@+id/Welcome" />
+
+    <Button
+        android:id="@+id/btnAddSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_subject"
+        android:backgroundTint="#FD5858"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/Credit"/>
+
+    <Button
+        android:id="@+id/btnRemoveSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_subject"
+        android:backgroundTint="#8C1919"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnAddSubject"/>
+
+    <TextView
+        android:id="@+id/SubjectsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subjects_n"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnRemoveSubject" />
+
+    <Button
+        android:id="@+id/btnCalculateGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_gpa"
+        android:backgroundTint="#FD5858"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/SubjectsList" />
+</RelativeLayout>

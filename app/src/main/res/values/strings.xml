@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="select_number_of_subjects_1">Select number of Subjects: 1</string>
+    <string name="enter_year_e_g_1st_year">Enter year e.g. ,1st Year</string>
+    <string name="select_semester">Select semester:</string>
+    <string name="semester_1">Semester 1</string>
+    <string name="semester_2">Semester 2</string>
+    <string name="go_ti_gpa_calculator">Go ti GPA Calculator</string>
+    <string name="enter_subject_code_e_g_swt32042">Enter subject code e.g. ,SWT32042</string>
+    <string name="enter_grade_e_g_a_b_c">Enter grade e.g., A, B+, C</string>
+    <string name="add_subject">Add Subject</string>
+    <string name="subjects">Subjects</string>
+    <string name="calculate_gpa">Calculate GPA</string>
+    <string name="gpa">GPA</string>
+    <string name="award_of_class">Award of Class</string>
+    <string name="subjects_n">Subjects\n</string>
+    <string name="enter_your_name">Enter Your name</string>
+    <string name="go_to_gpa_calculator">Go to GPA Calculator</string>
+    <string name="welcome">Welcome!</string>
+    <string name="course_code">Course Code</string>
+    <string name="grade">Grade</string>
+    <string name="credit">Credit</string>
+    <string name="motivation">Motivation</string>
+    <string name="hello">Hello!</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="remove_subject">Remove Subject</string>
+</resources>
