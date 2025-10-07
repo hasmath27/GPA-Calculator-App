@@ -9,7 +9,7 @@ An Android application that helps students calculate their Grade Point Average (
 - 🧮 Automatically calculate GPA based on grade points  
 - 🙌 Personalized welcome and summary screen  
 - 💬 Toast messages for user feedback  
-- 🎨 Clean and simple UI using **RelativeLayout**  
+- 🎨 Clean and simple UI using **RelativeLayout**, **LinearLayout**, and **ConstraintLayout**  
 - 🔄 Data passing between screens using **Intents**
 
 ---
@@ -19,7 +19,7 @@ An Android application that helps students calculate their Grade Point Average (
    - Enter your name, year, semester, and total number of subjects.
 
 2. **Add Subjects**  
-   - Type your course code (e.g., ICT3102), grade (A, B+, C, etc.), and credit value.  
+   - Type your course code (e.g., SWT32042), grade (A, B+, C, etc.), and credit value.  
    - Tap **“Add Subject”** to include it in your list.  
 
 3. **Remove Subject (if added by mistake)**  
@@ -41,7 +41,9 @@ An Android application that helps students calculate their Grade Point Average (
 - **Language:** Java  
 - **Framework:** Android SDK  
 - **IDE:** Android Studio  
-- **UI Components:** EditText, Button, TextView, Toast, Intent, RelativeLayout  
+- **UI Components:**
+- - Layouts → LinearLayout, RelativeLayout, ConstraintLayout  
+  - Widgets → EditText, Button, Seekbar, RadioButton, TextView, Toast, Intent 
 - **Data Structures:** ArrayList  
 
 ---
@@ -56,7 +58,7 @@ An Android application that helps students calculate their Grade Point Average (
 ## 🧠 What I Learned
 - Handling multiple activities using **Intents**  
 - Using **ArrayLists** to store and manage dynamic data  
-- Designing UIs using **XML layouts**  
+- Designing UIs using different **Android layouts**  
 - Implementing input validation and toast messages  
 - Debugging and improving user interaction flow  
 
