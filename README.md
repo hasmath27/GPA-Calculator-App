@@ -47,8 +47,9 @@ An Android application that helps students calculate their Grade Point Average (
 ---
 
 ## 📸 Screenshots
-![WhatsApp Image 2025-10-07 at 20 16 11_b33b99ec](https://github.com/user-attachments/assets/ab820d17-1104-4fc2-92f2-ce2ce9a8896b)
-
+![WhatsApp Image 2025-10-07 at 20 16 12_6728eb36](https://github.com/user-attachments/assets/7fca3435-d7db-43d9-a668-daa76d0e7453)
+![WhatsApp Image 2025-10-07 at 20 16 12_27385509](https://github.com/user-attachments/assets/1c517523-6fce-46ad-bd93-9486312b6948)
+![WhatsApp Image 2025-10-07 at 20 16 11_70a2d49f](https://github.com/user-attachments/assets/041b225f-fe4a-4ffc-9670-61c90e5f22ce)
 
 ---
 
